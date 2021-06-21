@@ -32,7 +32,7 @@ p{
 img {
     width: 100%;
 }
-
+/* Nav Bar Settings */
 .navbar {
     background-color: #66acf3;
     color: white;
@@ -58,6 +58,38 @@ img {
 
 .navbar .flex {
     justify-content: space-between;
+}
+
+/* Home section settings */
+.home {
+    display: flex;
+    background-color: #333;
+    height: 600px;
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.home img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.home .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home h1 {
+    color: #bcfafc;
+    border-bottom: 3px #fff solid;
+    padding: 10px;
+    font-size: 80px;
+}
+
+.home h2 {
+    color: white;
 }
 
 .container {
