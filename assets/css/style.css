@@ -32,6 +32,21 @@ p{
 img {
     width: 100%;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 /* Nav Bar Settings */
 .navbar {
     background-color: #66acf3;
@@ -45,14 +60,15 @@ img {
 
 .navbar a {
     color: white;
-    
-    padding: 10px;
+    font-size: 1.2em;
+    padding: 15px;
     margin: 0 5px;
 }
 
 .navbar a:hover {
     border-bottom: 2px #fff solid;
     border-top: 2px #fff solid;
+    font-size: 1.5em;
 
 }
 
@@ -92,16 +108,26 @@ img {
     color: white;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
+/* About section */
+.about {
+    display: flex;
+    background-color: violet;
+    height: 600px;
+    
 }
 
-.flex {
+.about .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+
+.about .container .card {
+    margin: 20px 40px; 
+    padding: 20px 40px; 
+    width: 500px;
+    height: 300px;
+    border: 3px #444 solid;
+    border-radius: 20%;
 }
