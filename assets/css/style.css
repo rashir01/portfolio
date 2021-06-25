@@ -69,6 +69,10 @@ hr {
 
 }
 
+br {
+    border:oldlace;
+    size: 10px;
+}
 
 .navbar h1 {
     /* position: absolute; */
@@ -125,13 +129,28 @@ hr {
 }
 /* About section  */
 
-.about h2 {
+.container h2 {
     color:#83D2FF;
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 18px;
+    margin: 0 185px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    color:#83D2FF;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+}
+.about .card h3 {
+
     margin: 0 185px;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -145,6 +164,38 @@ hr {
     margin: 0 185px;
     padding-left: 15px;
     padding-bottom: 10px;
+}
+
+.projects h2 {
+    color:#83FFE9;
+    margin: 0 185px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.projects .container {
+    padding-top: 00px;
+}
+.projects .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 700px;
+    background-color: #1C2C35;
+    margin: 0 215px;
+}
+
+.projects .card p {
+    background-color: #1C2C35;
+    color: #D9DCDE;
+    
+    
+}
+
+.projects .card h3 {
+    background-color: #1C2C35;
+    font-family: 'Roboto', sans-serif;
+
 }
 /*.about {
     display: flex;

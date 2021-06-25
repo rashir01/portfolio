@@ -17,3 +17,10 @@ used flex to arrange the elements in a column
 ## About section 
 add current experience container 
 add future experience/interests contains
+customize the headers 
+add paragraphs to show current and future experience
+
+## Projects Section
+Add projects with an image
+Add hover effects
+Add links 
