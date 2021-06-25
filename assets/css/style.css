@@ -197,6 +197,14 @@ h3 {
     font-family: 'Roboto', sans-serif;
 
 }
+.projects .card h4 {
+    background-color: #1C2C35;
+    font-family: 'Roboto', sans-serif;
+    color: #006eb8;
+
+}
+
+
 /*.about {
     display: flex;
     height: 600px;
