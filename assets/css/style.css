@@ -1,12 +1,14 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #303030;
+    margin: 4px;
+    padding: 4px;
+    background-color: #686868;
 }
 
+
+
+
 body{
-    
+    max-width: 1200px;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -18,41 +20,17 @@ ul {
 a {
     text-decoration: none;
 }
-
-.navbar h1 {
-     /* position: absolute; */
-    width: 111px;
-    height: 21px;
-    top: 64px;
-    left: 220px;
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 4px;
-    color: #C4CDD2; */
-   
-}
-
-p{
-    margin: 10px 0;
-}
-
-img {
-    width: 100%;
-}
-
-.container {
+*
+.navbar .container {
     max-width: 1200px;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 40px;
+    padding: 0 0px;
 }
 
-.flex {
+.navbar .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
@@ -84,43 +62,59 @@ img {
 
 }
 
-.navbar .flex {
-    justify-content: space-between;
+
+.navbar h1 {
+    /* position: absolute; */
+   width: 200px;
+   height: 21px;
+   top: 64px;
+   left: 10;
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 21px;
+   letter-spacing: 4px;
+   color: #C4CDD2; 
+   border-right: 1px solid #3d96e9;
 }
 
 /* Home section settings */
+ 
 .home {
     display: flex;
-    height: 600px;
-    width: 100%;
-    margin: 0 0;
-    padding: 0 0;
+    height: 200px; 
+    /* width: 50%;  */
 }
 
 .home img {
-    max-width: 200px;
-    border-radius: 50%;
+    left: 220px;
+    width: 120px;
+    height: 120px;
+    padding-right: 65px;
 }
 
 .home .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+    display: flex; 
+    flex-direction: row; 
+    flex-direction: row; 
 
-.home h1 {
-    color: #bcfafc;
-    border-bottom: 3px #fff solid;
-    padding: 10px;
-    font-size: 80px;
+    /* justify-content:space-evenly;  */
 }
 
 .home h2 {
-    color: white;
+    color: #fff;
+    padding: 40; 
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 46px;
+    align: left;
+
 }
 
+
 /* About section */
-.about {
+/*.about {
     display: flex;
     height: 600px;
     
@@ -141,3 +135,4 @@ img {
     border: 3px #444 solid;
     border-radius: 20%;
 }
+*/
