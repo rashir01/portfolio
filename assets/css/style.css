@@ -1,11 +1,8 @@
 * {
     margin: 4px;
     padding: 4px;
-    background-color: #686868;
+    background-color: #111A20;
 }
-
-
-
 
 body{
     max-width: 1200px;
@@ -21,7 +18,16 @@ ul {
 a {
     text-decoration: none;
 }
-*
+
+hr {
+    background-color: #27394A;
+    /* height: 1px; */
+    width: auto;
+    height: 1px;
+    border:none;
+    
+}
+
 .navbar .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -113,8 +119,33 @@ a {
 
 }
 
+#name {
+    background-color: #A9DAF6;
+    color:#111A20;
+}
+/* About section  */
 
-/* About section */
+.about h2 {
+    color:#83D2FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    margin: 0 185px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.about p {
+    color: #D9DCDE;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-style: normal;
+    margin: 0 185px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
 /*.about {
     display: flex;
     height: 600px;
