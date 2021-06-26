@@ -217,6 +217,51 @@ h3 {
     background-color: inherit;
     color: #D9DCDE;  
 }
+
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      /* background: #772014; */
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 992px) {
+    body {
+        width: 750px;
+    }
+    .container {
+
+        flex-wrap: wrap;
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 0px 0px;
+        height: 115px;
+    }
+
+    .home  .container h2 {
+        size: 10px;
+        width: 300px;
+        padding-bottom: 150px ;
+    }
+
+    .about .container h2{
+        
+        padding-top: 75px;
+    }
+
+    .projects .container {
+        margin: 0px 10px;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+
+    }
 /*.about {
     display: flex;
     height: 600px;
