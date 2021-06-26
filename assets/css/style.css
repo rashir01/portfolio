@@ -90,7 +90,6 @@ h3 {
 }
 
 /* Home section settings */
- 
 .home {
     display: flex;
     flex-direction: row; 
@@ -123,7 +122,6 @@ h3 {
 }
 
 /* About section  */
-
 .about .container h2 {
     color:#83D2FF;
     font-family: 'Courier New', Courier, monospace;
@@ -137,12 +135,10 @@ h3 {
 }
 
 .about .card h3 {
-
     margin: 0 var(--standard-padding);
     padding-left: 15px;
     padding-bottom: 15px;
 }
-
 
 .about p {
     color: #D9DCDE;
@@ -168,6 +164,7 @@ h3 {
 .projects .container {
     padding-top: 00px;
 }
+
 .projects .card {
     display: flex;
     flex-direction: column;
@@ -185,22 +182,19 @@ h3 {
 .projects .card h3 {
     background-color: inherit;
     font-family: 'Roboto', sans-serif;
-
 }
+
 .projects .card h4 {
     background-color: inherit;
     font-family: 'Roboto', sans-serif;
     color: #006eb8;
-
 }
 
 .projects .card:hover {
-    background: url("/assets/images/dark_background.png");
-    
+    background: url("/assets/images/dark_background.png");  
 }
 
 /* contact section */ 
-
 .contact .card {
     display: flex;
     flex-direction: column;
@@ -209,6 +203,7 @@ h3 {
     background-color: #1C2C35;
     margin: 0 215px;
 }
+
 .contact h2 {
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
@@ -223,7 +218,6 @@ h3 {
     background-color: inherit;
     color: #D9DCDE;  
 }
-
 
 /* Tablet and smart phone responsiveness */
   @media screen and (max-width: 992px) {
