@@ -1,26 +1,20 @@
 # portfolio
 
 ## Nav Bar
-The page contains a nav bar to navigate to the following: 
-Home: There top of the page
-About: A part of the page about the author and course
-Projects: A list of projects in progress or to be devloped
-Contact: A part of the page where the user can contact the author
-Used flex display for the layout of the different components
-Used hover to show borders around the navbar links and increased text size
+The nav bar is responsive
+
+The navbar will indicate the item that is being hovered over
 
 ## Home Section
-added image with borders to make it circular
-added background and headers
+Includes a current picture and intro 
+
 used flex to arrange the elements in a column
 
 ## About section 
-add current experience container 
-add future experience/interests contains
-customize the headers 
-add paragraphs to show current and future experience
+current experience and training
 
 ## Projects Section
-Add projects with an image
-Add hover effects
-Add links 
+The projects will show a static image when hovering on them
+
+## Contact me
+Currently this is a placeholder that does not have my real email. It will be replaced with a form once I learn JS. 
