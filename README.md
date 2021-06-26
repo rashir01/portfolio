@@ -18,3 +18,9 @@ The projects will show a static image when hovering on them
 
 ## Contact me
 Currently this is a placeholder that does not have my real email. It will be replaced with a form once I learn JS. 
+
+## Mock-Up
+
+The below picture captures the finished product
+
+![portfolio demo](./assets/images/websiteShot.png)

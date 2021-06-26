@@ -1,3 +1,8 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --standard-padding: 185px;
+}
+
 * {
     margin: 4px;
     padding: 4px;
@@ -61,6 +66,7 @@ h3 {
     margin: 0 25px;
 }
 
+/* add effects to links */
 .navbar a:hover {
     border-bottom: 2px #fff solid;
     border-top: 2px #fff solid;
@@ -88,7 +94,6 @@ h3 {
 .home {
     display: flex;
     flex-direction: row; 
-
     height: 125px; 
 }
 
@@ -101,8 +106,6 @@ h3 {
     display: flex; 
     flex-direction: row; 
     justify-content: flex-start;
-
-    /* justify-content:space-evenly;  */
 }
 
 .home  .container h2 {
@@ -111,13 +114,14 @@ h3 {
     font-family: 'Roboto', sans-serif;
     line-height: 46px;
     margin: 15px 60px;
-
 }
 
+/* special highlight for my name */ 
 #name {
     background-color: #A9DAF6;
     color:#111A20;
 }
+
 /* About section  */
 
 .about .container h2 {
@@ -127,15 +131,14 @@ h3 {
     font-weight: normal;
     font-size: 25px;
     line-height: 18px;
-    margin: 0 185px;
+    margin: 0 var(--standard-padding);
     padding-left: 15px;
     padding-bottom: 15px;
 }
 
-
 .about .card h3 {
 
-    margin: 0 185px;
+    margin: 0 var(--standard-padding);
     padding-left: 15px;
     padding-bottom: 15px;
 }
@@ -146,17 +149,18 @@ h3 {
     font-family: 'Roboto', sans-serif;
     line-height: 25px;
     font-style: normal;
-    margin: 0 185px;
+    margin: 0 var(--standard-padding);
     padding-left: 15px;
     padding-bottom: 10px;
 }
 
+/* projects section */ 
 .projects h2 {
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     color:#83FFE9;
-    margin: 0 185px;
+    margin: 0 var(--standard-padding);
     padding-bottom: 30px;
     padding-left: 20px;
 }
@@ -195,6 +199,8 @@ h3 {
     
 }
 
+/* contact section */ 
+
 .contact .card {
     display: flex;
     flex-direction: column;
@@ -208,7 +214,7 @@ h3 {
     font-style: normal;
     font-weight: normal;
     color:#eb6bff;
-    margin: 0 185px;
+    margin: 0 var(--standard-padding);
     padding-bottom: 30px;
     padding-left: 20px;
 }
@@ -218,16 +224,8 @@ h3 {
     color: #D9DCDE;  
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    header {
-      /* background: #772014; */
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
+/* Tablet and smart phone responsiveness */
   @media screen and (max-width: 992px) {
     body {
         width: 750px;
@@ -257,30 +255,3 @@ h3 {
         margin: 0px 10px;
     }
   }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-
-    }
-/*.about {
-    display: flex;
-    height: 600px;
-    
-}
-
-.about .container {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    
-}
-
-.about .container .card {
-    margin: 20px 40px; 
-    padding: 20px 40px; 
-    width: 500px;
-    height: 300px;
-    border: 3px #444 solid;
-    border-radius: 20%;
-}
-*/
