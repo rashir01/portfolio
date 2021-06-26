@@ -191,7 +191,7 @@ h3 {
 }
 
 .projects .card:hover {
-    background: url("/assets/images/dark_background.png");  
+    background: url("../../assets/images/dark_background.png");  
 }
 
 /* contact section */ 
