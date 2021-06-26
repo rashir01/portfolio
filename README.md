@@ -1,5 +1,8 @@
 # portfolio
 
+## Welcome
+This repo contains the webpage and corresponding css for my portfolio. It contains a nav bar, intro, about, projects, and contact sections. Enjoy. 
+
 ## Nav Bar
 The nav bar is responsive
 
