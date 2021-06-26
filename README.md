@@ -20,7 +20,10 @@ current experience and training
 The projects will show a static image when hovering on them
 
 ## Contact me
-Currently this is a placeholder that does not have my real email. It will be replaced with a form once I learn JS. 
+Currently this is a placeholder that does not have my real email. It will be replaced with a form once I learn JS.
+
+## Link
+The page can be accessed [here](https://rashir01.github.io/portfolio/)
 
 ## Mock-Up
 
