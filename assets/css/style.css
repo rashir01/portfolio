@@ -214,9 +214,15 @@ h3 {
     padding-left: 20px;
 }
 
+
 .contact .card p {
     background-color: inherit;
     color: #D9DCDE;  
+}
+
+.contact .card a {
+    background-color: inherit;
+    color: #eb6bff;
 }
 
 /* Tablet and smart phone responsiveness */
