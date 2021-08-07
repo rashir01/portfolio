@@ -191,6 +191,11 @@ h3 {
     background: url("../../assets/images/dark_background.png");  
 }
 
+.projects .card a {
+    background-color: inherit;
+    color: #4287b5;
+}
+
 /* contact section */ 
 .contact .card {
     display: flex;
