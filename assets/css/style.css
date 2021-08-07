@@ -196,6 +196,13 @@ h3 {
     color: #4287b5;
 }
 
+.projects .card img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+    width: 100%;
+ }
 /* contact section */ 
 .contact .card {
     display: flex;
