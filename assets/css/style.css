@@ -237,12 +237,9 @@ h3 {
 /* Tablet and smart phone responsiveness */
   @media screen and (max-width: 992px) {
     body {
-        width: 750px;
+        width: 100%;
     }
-    .container {
 
-        flex-wrap: wrap;
-    }
     .navbar {
         flex-direction: column;
         padding: 0px 0px;
@@ -251,18 +248,42 @@ h3 {
 
     .home  .container h2 {
         size: 10px;
-        width: 300px;
-        padding-bottom: 150px ;
+        width: 100%;
     }
 
-    .about .container h2{
-        
+    .about .card h2 {
+        padding: 150;
+        margin: auto;
+    }
+
+    .about .card p {
+        margin:auto;
+    }
+
+    .about .container h2{        
         padding-top: 75px;
     }
 
-    .projects .container {
-        margin: 0px 10px;
+    /* projects tablet settings */ 
+    .projects .container h2{
+        padding: 150;
+        margin: auto;
     }
+
+    .projects .container .card {
+        margin:auto;
+    }
+
+    /* contact tablet settings */ 
+    .contact .container h2 {
+        padding: 150;
+        margin:auto;
+    }
+
+    .contact .container .card {
+        margin:auto;
+    }
+    
   }
 
   /* projects collapsible settings */
