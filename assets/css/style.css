@@ -319,6 +319,24 @@ h3 {
         display: grid;
     }
 
+    .home .container h2 {
+        font-size: 18px;
+        width: 80%;
+        line-height: 1.5;
+    }
 
+
+    .about .card h2 {
+        padding: 150;
+        margin: auto;
+    }
+
+    .about .card p {
+        margin:auto;
+    }
+
+    .about .container h2{        
+        padding-top: 75px;
+    }
     
 }
